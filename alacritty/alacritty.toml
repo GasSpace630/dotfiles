@@ -1,0 +1,36 @@
+# --- Alacritty Simple Config ---
+
+[window]
+padding = { x = 0, y = 0 }
+dynamic_padding = true
+# 0.0 is fully transparent, 1.0 is fully opaque
+opacity = 1.0 
+blur = true
+
+[window.dimensions]
+columns = 80
+lines = 24
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[colors.primary]
+background = "#1a1b26"
+foreground = "#a9b1d6"
+
+[colors.normal]
+black   = "#32344a"
+red     = "#f7768e"
+green   = "#9ece6a"
+yellow  = "#e0af68"
+blue    = "#7aa2f7"
+magenta = "#bb9af7"
+cyan    = "#7dcfff"
+white   = "#a9b1d6"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+
+size = 10
